@@ -1,0 +1,1 @@
+[15-Feb-2018 15:43:15 UTC] PHP Fatal error:  Class App\Repositories\Task\EloquentTaskRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Task\TaskContract::listAllTasks) in /home/ubuntu/workspace/app/Repositories/Task/EloquentTaskRepository.php on line 7
