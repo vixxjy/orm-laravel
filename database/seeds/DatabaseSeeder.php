@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+        $this->call(ExamTableSeeder::class);
         
         // temporarily disable the mass assignment protection of the model to enable seeding
         Eloquent::unguard();

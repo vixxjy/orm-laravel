@@ -28,4 +28,7 @@ Route::get('/delete/task/{id}', ['uses' => 'TaskController@destroy', 'as' => 'ta
 
 Route::get('/students', ['uses' => 'StudentController@index', 'as' => 'students']);
 
+Route::resource('posts','PostsController');
+Route::post('posts/changeStatus', ['as' => 'changeStatus', 'uses' => 'PostsController@changeStatus']);
+
 
